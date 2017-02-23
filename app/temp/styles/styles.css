@@ -911,14 +911,13 @@ a {
     margin-right: .5rem;
     margin-left: 0;
     margin-bottom: 0;
-    display: inline;
+    display: inline-block;
   }
 }
 
 .feature-item {
-    position: relative;
-    padding-bottom: 2.5rem;
-    
+  position: relative;
+  padding-bottom: 2.5rem;
 }
 
 @media (min-width: 530px) {
@@ -944,7 +943,7 @@ a {
 .feature-item__title {
   font-size: 1.6rem;
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: .7em;
   margin-bottom: .8rem;
   text-align: center;
 }
@@ -952,8 +951,9 @@ a {
 @media (min-width: 530px) {
 
   .feature-item__title {
-    font-size: 1.875rem;
     text-align: left;
+    margin-top: 1em;
+    font-size: 1.875rem;
   }
 }
 
