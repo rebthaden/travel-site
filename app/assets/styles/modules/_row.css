@@ -34,6 +34,7 @@
     
     &__b-margin-until-medium {
         margin-bottom: 1rem;
+        
     }
     
     @mixin atMedium {
@@ -63,6 +64,8 @@
          &__medium-8--smaller {
            width: 63%;
         }
+        
+        
          
     }
     
@@ -119,6 +122,7 @@
         & > div {
             float: none;
             display: flex;
+            
         }
     }
     
